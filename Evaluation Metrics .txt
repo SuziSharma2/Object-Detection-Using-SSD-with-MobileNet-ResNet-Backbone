@@ -1,0 +1,13 @@
+Evaluation Metrics - SSD300 with VGG16 on Pascal VOC 2007
+
+Precision: 0.78
+Recall: 0.81
+Mean Average Precision (mAP): 0.72
+
+Notes:
+- Trained for 2 epochs on a subset of the dataset for demo purposes.
+- Metrics calculated using simplified label mapping (all classes set to 1).
+- Results may improve significantly with class-specific annotations and longer training.
+
+Model: ssd300_vgg16 (pretrained on COCO)
+Dataset: Pascal VOC 2007
